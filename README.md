@@ -1,2 +1,2 @@
-# Send-Mail-UI
-Send Mail System
+# SMTP Mail System App
+
