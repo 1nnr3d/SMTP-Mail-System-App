@@ -13,10 +13,9 @@ SMTP Mail System Desktop App / SMTP Posta Sistemi Masaüstü Uygulaması
 
 ```css
 
-pip install smtplib
-pip install ssl
-pip install email
-pip install PyQt5
+pip install -r requirements.txt
+or
+py -m pip install -r requirements.txt
 
 ```
 
