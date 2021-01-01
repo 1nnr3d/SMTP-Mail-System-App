@@ -175,11 +175,11 @@ class main(QtWidgets.QWidget):
             server.sendmail(sender_email, receiver_email, message.as_string())
         except FileNotFoundError:
             QtWidgets.QMessageBox.critical(
-                self, "Hata!", "File Not Found!", QtWidgets.QMessageBox.Ok
+                self, "Error!", "File Not Found!", QtWidgets.QMessageBox.Ok
             )
         except AttributeError:
             QtWidgets.QMessageBox.critical(
-                self, "Hata!", "File Path Not Found!", QtWidgets.QMessageBox.Ok
+                self, "Error!", "File Path Not Found!", QtWidgets.QMessageBox.Ok
             )
 
 
